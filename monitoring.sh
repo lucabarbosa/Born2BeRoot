@@ -47,7 +47,7 @@ wall    "
         #vCPU: $cpuv
         #Memory Usage: $ram_use/${ram_total}MB ($ram_percent%)
         #Disk Usage: $disk_use/${disk_total}Gb ($disk_percent%)
-	#CPU load: $cpu_load
+		#CPU load: $cpu_load
         #Last boot: $lb
         #LVM use: $lvmu
         #Connections TCP: $tcpc ESTABLISHED
