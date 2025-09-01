@@ -82,8 +82,8 @@ born2beroot/
 ### 1. VM Installation
 ```bash
 # Follow the detailed guide in install.md
-# 1. Install VirtualBox 6.1
-# 2. Download Debian image
+# 1. Install VirtualBox
+# 2. Download Debian iso
 # 3. Configure VM with project specifications
 ```
 
