@@ -1,6 +1,6 @@
 # Born2beRoot 🐧
 
-This repository contains my implementation of the Born2BeRoot project from 42 School.
+This repository contains my implementation of the Born2BeRoot project from 42 School and is also a manual for solving the problems from the Debian 13 version.
 The goal is to set up a virtual machine (VM) running the latest version of Debian or Rocky and to get introduced to system administration concepts, virtualization, operating systems, security and task automation.
 
 ## 📋 About the project
