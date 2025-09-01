@@ -1,18 +1,19 @@
-# Debian
+# Debian 13 installation packages
 
 Guide for the **Debian 13.0.0 Trixie** of the project.
 
-Login with your `login` and password then:
+Always that we put login in this documento you should put your own login from 42.
+Login with your `login` from 42 and password that have you created for the user (VM) then:
 
 ```bash
 login@login42:~# su
-Password:
+Password: #put the password that have you created for the root.
 ```
 To you login as `root` to install `vim` and another packages.
 
 ## Optional - Installing vim
 
-Put in your terminal in root mode:
+In your terminal as root:
 
 ```bash
 root@login42:/home/login# apt install vim
@@ -29,7 +30,7 @@ Login again and now you can use the sudo functions
 
 ```bash
 login@login42:~# sudo addgroup user4
-login@login42:~# sudo adduser **login** user42
+login@login42:~# sudo adduser login user42
 login@login42:~# sudo apt update
 ```
 
@@ -166,7 +167,7 @@ login@login42:~# sudo chmod +x /home/monitoring.sh
 Editing cron jobs
 
 ```bash
-sudo crontab -e
+login@login42:~# sudo crontab -e
 ```
 
 After line23 `# m h dom mon dow command`
@@ -176,11 +177,14 @@ Put line24
 ```
 */10 * * * * sh /home/monitoring.sh
 ```
-Check scheduled jobs
+Press **ctrl** **x** **y** and **enter**
 
 ```bash
-sudo reboot
+login@login42:~# sudo reboot
 ```
+
+Check scheduled jobs
+
 Done !
 
 Now everything was configurd following the subject rules and must be working as it should.
