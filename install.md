@@ -2,9 +2,9 @@
 
 Guide to install the **Debian** version of the project.
 
-Install [**VirtualBox v6.1**](https://www.virtualbox.org/wiki/Downloads).
+Install [**VirtualBox (last version)**](https://www.virtualbox.org/wiki/Downloads).
 
-Download the [**Debian**](https://www.debian.org/download.en.html) image.
+Download the [**Debian**](https://www.debian.org/download.en.html) iso.
 
 ## Virtual Machine Settings
 
