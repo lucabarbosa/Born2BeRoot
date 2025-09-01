@@ -7,7 +7,7 @@ Login with your `login` from 42 and password that have you created for the user 
 
 ```bash
 login@login42:~# su
-Password: #put the password that have you created for the root.
+Password: #(put-the-root-password)
 ```
 To you login as `root` to install `vim` and another packages.
 
@@ -16,15 +16,15 @@ To you login as `root` to install `vim` and another packages.
 In your terminal as root:
 
 ```bash
-root@login42:/home/login# apt install vim
+root@login42:~# apt install vim
 ```
 
 ## 1 - Installing sudo & adding it in groups
 
 ```bash
-root@login42:/home/login# apt install sudo
-root@login42:/home/login# adduser msousa sudo
-root@login42:/home/login# reboot
+root@login42:~# apt install sudo
+root@login42:~# adduser msousa sudo
+root@login42:~# reboot
 ```
 Login again and now you can use the sudo functions
 
