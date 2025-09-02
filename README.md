@@ -155,6 +155,17 @@ sudo chage -l [username]
 #Sudo: 42 cmd
 ```
 
+### 📝 Fixing Terminal Messages in Debian 13
+
+In Debian 13.0.0, the script stopped displaying messages with the `wall` command on SSH-connected pseudoterminals. So I fixed it by using `wall` for the actual tty and a `msg` variable for SSH-connected terminals.
+```
+for tty in /dev/pts/*; do
+        [ -w "$tty" ] && echo "$msg" > "$tty"
+done
+```
+
+In this code, we iterate over all the TTYs in `/dev/pts/` [the path to pseudoterminals] to manually write the message to each active terminal.
+
 ## 🎓 Concepts Learned
 
 - **Virtualization** - VM creation and management
